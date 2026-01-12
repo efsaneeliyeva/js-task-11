@@ -3,9 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>SHOPPING</title>
 </head>
 <body>
+    <div class="header-container">
+        <header class="headerOne">
+            <div class="logo">
+                <a href=""><img src="./images/Adsız tasarım (1).png" alt=""></a>
+            </div>
+            <div class="endHeader">
+                    <nav>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-house"></i> Ana səhifə</a></li>
+                            <li><a href="#"><i class="fa-solid fa-circle-info"></i> Haqqımızda</a></li>
+                            <li><a href="#"><i class="fa-solid fa-phone"></i> Bizimlə əlaqə</a></li>
+                        </ul>
+                    </nav>
+                    <div class="search">
+                    <input type="text" placeholder="Məhsul axtar...">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                    <div id="modeBtn" class="modeBtn">☀️</div>
+            </div>
     
+        </header>
+        <header class="headerTwo">
+            <a href="">Pomadalar</a>
+            <a href="">Laklar</a>
+            <a href="">Bujiteriyalar</a>
+            <a href="">Ətirlər</a>
+            <a href="">Mascaralar</a>
+            <a href="">Göz kölgələri</a>
+            <a href="">Sitatlar</a>
+            <a href="">Sizdən gələn Rəylər</a>
+        </header>
+    </div>
+    <main>
+        <div class="main-container">
+            <div class="title">
+                <div class="rightSide">
+                    <div class="img">
+                        <img src="./images/Adsız tasarım (2).png" alt="">
+                    </div>
+                </div>
+                <div class="leftSide">
+                    <div class="text">
+                        <h1>Axtardığınız hər şey</h1>
+                        <h1>burada</h1>
+                        <p>Keyfiyyət, münasib qiymət və sürətli xidmət – hamısı bir platformada.</p>
+                        <button id="moreBtn" class="moreBtn">Daha çoxu üçün <i class="fa-solid fa-arrow-right arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div id="posts" class="posts"></div>
+        </div>
+        <div class="titleTwo">
+            <h1>Doğru məhsul, doğru ünvan</h1>
+            <div class="img">
+                <img src="./images/Adsız tasarım.jpg" alt="">
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="commentsTitle">
+                <h1>Sizdən gələn rəylər</h1>
+                <p>Müştəri məmnuniyyəti bizim üçün çox vacibdir ☺️</p>
+            </div>
+            <div class="comments">
+                <div class="commentsRight">
+                    <button class="commentsBtn" id="commentsBtn">Rəylərə baxmaq üçün bura klik et 
+                        <br>
+                        <br>
+                        <i class="fa-solid fa-arrow-down arrow-down"></i>
+                    </button>
+                    <div id="commentler" class="commentler"></div>
+                </div>
+                <div class="commentsLeft">
+                    <div class="img">
+                        <img src="./images/Adsız tasarım (3).png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="sitatGame  titleTwo">
+                <h1>Sitat oyunu </h1>
+                <p>Butona toxunun və sitat oyununu oynayın və bugun sizə hansı sitat verildiyinə baxın</p>
+                <button class="gameBtn" id="gameBtn">Butona klik et</button>
+            </div>
+            <div id="quotes" class="quotes"></div>
+        </div>
+    </main>
+    <div class="footer-container">
+        <footer class="footer">
+            <div class="top-footer">
+                <div class="leftSide">
+                <img src="/images/Adsız tasarım (1).png" alt="">
+                <p>SHOPPING</p>
+                </div>
+                <div class="centerSide">
+                    <a href="">Pomadalar</a>
+                    <a href="">Laklar</a>
+                    <a href="">Bujiteriyalar</a>
+                    <a href="">Ətirlər</a>
+                    <a href="">Mascaralar</a>
+                    <a href="">Göz kokləgələri</a>
+                    <a href="">Sitatlar</a>
+                    <a href="">Sizdən gələn Rəylər</a>
+                </div>
+                <div class="rightSide">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="reserved">
+                <p>© 2023 All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.11.0/axios.min.js" integrity="sha512-h9644v03pHqrIHThkvXhB2PJ8zf5E9IyVnrSfZg8Yj8k4RsO4zldcQc4Bi9iVLUCCsqNY0b4WXVV4UB+wbWENA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./app.js"></script>
 </body>
 </html>
